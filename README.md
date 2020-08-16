@@ -1,6 +1,4 @@
-# Mongo Express Start! A batteries included generator for Node.js Servers.
-
-A generator for a webapp server based on express, mongoDB and many other things 😀
+# ToughLove.
 
 ## Getting Started
 
