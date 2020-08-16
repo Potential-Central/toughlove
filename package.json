@@ -1,0 +1,44 @@
+{
+  "name": "@c.fleury/toughlove",
+  "version": "0.0.11",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "lint": "eslint --fix",
+    "test": "mocha --exit"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "api",
+    "webapp",
+    "nodejs",
+    "nosql"
+  ],
+  "author": "C. Fleury <48jzmf6jk@relay.firefox.com>",
+  "license": "Attribution-NonCommercial-NoDerivatives 4.0 International",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "joi": "^17.2.0",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "mongodb": "^3.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
